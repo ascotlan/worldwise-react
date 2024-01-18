@@ -2,15 +2,19 @@ import styles from "./CityList.module.css";
 import Spinner from "./Spinner";
 import CityItem from "./CityItem";
 import Message from "./Message";
-import PropTypes from "prop-types";
+import useCitiesContext from "../hooks/use-cities-context";
 
-function CityList({ cities, isLoading }) {
+function CityList() {
+  const { cities, isLoading } = useCitiesContext();
+
   if (isLoading) {
     return <Spinner />;
   }
 
-  if(!cities?.length){
-    return <Message message="Add your first city by clicking on your first city on the map"/> 
+  if (!cities?.length) {
+    return (
+      <Message message="Add your first city by clicking on your first city on the map" />
+    );
   }
   const renderedCities = cities.map((city) => (
     <CityItem key={city.id} city={city} />
@@ -19,10 +23,4 @@ function CityList({ cities, isLoading }) {
   return <ul className={styles.cityList}>{renderedCities}</ul>;
 }
 
-CityList.propTypes = {
-  cities: PropTypes.array.isRequired,
-  isLoading: PropTypes.bool.isRequired,
-};
-
 export default CityList;
-
