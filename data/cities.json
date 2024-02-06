@@ -35,6 +35,66 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Seron de Najima",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-06T19:12:04.857Z",
+      "notes": "Test",
+      "position": {
+        "lat": "41.492120839687786",
+        "lng": "-2.2412109375000004"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Kyiv",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-02-06T19:16:20.450Z",
+      "notes": "Boom!",
+      "position": {
+        "lat": "50.44351305245807",
+        "lng": "30.415649414062504"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Ojos Negros",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-06T19:17:38.604Z",
+      "notes": "Test",
+      "position": {
+        "lat": "40.730608477796636",
+        "lng": "-1.5161132812500002"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Avis",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-02-06T19:28:46.500Z",
+      "notes": "Test",
+      "position": {
+        "lat": "39.09383130692365",
+        "lng": "-7.871704101562501"
+      },
+      "id": 98443208
+    },
+    {
+      "cityName": "Boumalne Dades",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2024-02-06T19:31:56.372Z",
+      "notes": "Test",
+      "position": {
+        "lat": "31.42866311735861",
+        "lng": "-6.262207031250001"
+      },
+      "id": 98443209
     }
   ]
 }
