@@ -1,9 +1,10 @@
 import { useContext } from "react";
-import { CitiesContext } from "../context/cities";
+import { CitiesContext } from "../context/Cities";
 
-function useCitiesContext(){
+function useCitiesContext() {
   const context = useContext(CitiesContext);
-  if(context === undefined) throw new Error('CitiesContext being called outside of the CitiesProvider')
+  if (context === undefined)
+    throw new Error("CitiesContext being called outside of the CitiesProvider");
   return context;
 }
 
